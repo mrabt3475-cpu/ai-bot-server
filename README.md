@@ -1,2 +1,92 @@
-# ai-bot-server
-AI Bot - Smart conversation, image generation, music, voice, search - runs on your server
+# 🤖 AI Bot Server
+
+بوت ذكاء اصطناعي يشبه Mira - مساعد ذكي في تليجرام!
+
+---
+
+## ✨ الميزات
+
+- 💬 **محادثة ذكية** - محادثات طبيعية مع AI
+- 🎨 **إنشاء صور** - عبر DALL-E
+- 🎵 **إنشاء أغاني** - موسيقى بالذكاء الاصطناعي
+- 🌐 **بحث في الإنترنت** - بحث سريع
+- 🗣️ **الرسائل الصوتية** - تحويل صوت لنص
+- 💾 **ذاكرة** - يتذكر معلومات المستخدم
+- 👤 **ملف شخصي** - يحفظ بياناتك
+
+---
+
+## 🚀 التثبيت
+
+```bash
+git clone https://github.com/mrabt3475-cpu/ai-bot-server.git
+cd ai-bot-server
+pip install -r requirements.txt
+```
+
+## ⚙️ الإعداد
+
+### 1. أنشئ بوت من @BotFather
+
+### 2. اضبط المتغيرات:
+
+```bash
+export BOT_TOKEN="توكن_البوت"
+export OPENAI_API_KEY="sk-..."  # اختياري للمحادثة والصور
+export ADMIN_ID="معرف_الأدمن"
+```
+
+أو أنشئ ملف `.env`:
+```env
+BOT_TOKEN=your_bot_token
+OPENAI_API_KEY=your_openai_key
+ADMIN_ID=your_admin_id
+```
+
+## ▶️ التشغيل
+
+```bash
+python bot.py
+```
+
+---
+
+## 📋 الأوامر
+
+| الأمر | الوظيفة |
+|-------|---------|
+| /start | بدء البوت |
+| /help | المساعدة |
+| /balance | الرصيد |
+| /profile | ملفي |
+| /clear | مسح المحادثة |
+
+---
+
+## 💬 الأوامر النصية
+
+```
+# محادثة
+اكتب أي شيء!
+
+# رسم صورة
+ارسم قطة جميلة
+
+# بحث
+ابحث عن سعر البيتكوين
+
+# أغنية
+gني أغنية فرح
+
+# تحديث الملف
+اسمي: أحمد
+عمري: 25
+مدينتي: الرياض
+اهتمامي: البرمجة
+```
+
+---
+
+## 📧 تواصل
+
+@Mohammad4648
